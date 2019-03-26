@@ -134,7 +134,7 @@ For more information , please visit : http://www.florian-diesch.de/software/clas
 						elif opcion1 == "gohome":
 							inicio1()
 						elif opcion1 == "0":
-							command = "apt-get -f install dmitry dnmap dnsenum dnsmap dnsrecon dnstracer dnswalk exploitdb golismero goofile masscan metagoofil p0f recon-ng sslsplit sslstrip sslyze theharvester wireshark hping3 nmap openvas-cli openvas-manager openvas-scanner oscanner powerfuzzer sqlmap sqlninja thc-ipv6 unix-privesc-check aircrack-ng burpsuite dirb dirbuster grabber jboss-autopwn joomscan jsql uniscan vega websploit wpscan xsser zaproxy hexinject mitmproxy sniffjoke sslsplit sslstrip wifi-honey wireshark zaproxy dns2tcp httptunnel powersploit webshells weevely cutycapt dos2unix dradis keepnote metagoofil armitage backdoor-factory jboss-autopwn linux-exploit-suggester maltego-teeth shellnoob p0f ipv6-toolkit reaver slowhttptest thc-ssl-dos crunch findmyhash gpp-decrypt multiforcer ncrack rainbowcrack thc-pptp-bruter webscarab wordlists  edb-debugger android-sdk apktool dex2jar smali && wget http://www.morningstarsecurity.com/downloads/bing-ip2hosts-0.4.tar.gz && tar -xzvf bing-ip2hosts-0.4.tar.gz && cp bing-ip2hosts-0.4/bing-ip2hosts /usr/local/bin/"
+							command = "apt-get -f install dmitry dnmap dnsenum dnsmap dnsrecon dnstracer dnswalk exploitdb golismero goofile masscan metagoofil p0f recon-ng sslsplit sslstrip sslyze theharvester wireshark hping3 nmap openvas-cli openvas-manager openvas-scanner oscanner powerfuzzer sqlmap sqlninja thc-ipv6 unix-privesc-check aircrack-ng burpsuite dirb dirbuster grabber jboss-autopwn joomscan jsql uniscan websploit wpscan xsser zaproxy hexinject mitmproxy sniffjoke sslsplit sslstrip wifi-honey wireshark zaproxy dns2tcp httptunnel powersploit webshells weevely cutycapt dos2unix dradis keepnote metagoofil armitage backdoor-factory jboss-autopwn linux-exploit-suggester maltego-teeth shellnoob p0f ipv6-toolkit reaver slowhttptest thc-ssl-dos crunch findmyhash gpp-decrypt multiforcer ncrack rainbowcrack thc-pptp-bruter webscarab wordlists  edb-debugger android-sdk apktool dex2jar smali && wget http://www.morningstarsecurity.com/downloads/bing-ip2hosts-0.4.tar.gz && tar -xzvf bing-ip2hosts-0.4.tar.gz && cp bing-ip2hosts-0.4/bing-ip2hosts /usr/local/bin/"
 							print(command)
 							cmd = os.system(command)	
 						while opcion1 == "1":
@@ -625,7 +625,7 @@ For more information , please visit : http://www.florian-diesch.de/software/clas
 							elif opcion2 == "gohome":
 								inicio1()	
 							elif opcion2 == "0":
-								cmd = os.system("apt-get install -y apache-users arachni bbqsql blindelephant burpsuite cutycapt davtest deblaze dirb dirbuster fimap funkload grabber jboss-autopwn joomscan jsql maltego-teeth padbuster paros parsero plecost powerfuzzer proxystrike recon-ng skipfish sqlmap sqlninja sqlsus ua-tester uniscan vega webscarab websploit wfuzz wpscan xsser zaproxy")												
+								cmd = os.system("apt-get install -y apache-users arachni bbqsql blindelephant burpsuite cutycapt davtest deblaze dirb dirbuster fimap funkload grabber jboss-autopwn joomscan jsql maltego-teeth padbuster paros parsero plecost powerfuzzer proxystrike recon-ng skipfish sqlmap sqlninja sqlsus ua-tester uniscan webscarab websploit wfuzz wpscan xsser zaproxy")												
 							else:
 								print ("\033[1;31mSorry, that was an invalid command!\033[1;m")
 						while opcion1 == "5":
